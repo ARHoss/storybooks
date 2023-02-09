@@ -7,23 +7,28 @@
     {{!-- Materialize --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     {{!-- Custom CSS --}}
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Storybooks</title>
 </head>
 <body>
+    {{!-- Header --}}
     {{> _header}}
+    {{!-- Add Button --}}
+    {{> _add_btn}}
     <div class="container">
         {{{body}}}
     </div>
-    
+
 
 
 
     {{!-- Materialize --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    {{!-- WSWYG Editor --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.20.1/ckeditor.js" integrity="sha512-zFNDGGU5T3I464vTJn5SupfBJEoxFa7oa5BRkQjm409ORBe1U4f7cpbylDdV21yrmjmYKo3Y0sPTxR9kBgSkvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     {{!-- Font Awesome --}}
     <script src="https://kit.fontawesome.com/84545af706.js" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 
     
 </body>
